@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    /*row(eixo x), column(y) */flex-direction: row;
+    /*no eixo do y */align-items: flex-start;
+    /*no eixo do x */justify-items: flex-start; /*space-around(espaços iguais entre todos os elementos)*/
+    background: yellow;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.flex-item{
+    color: azure;
+    background: red;
+    width: 100%;
+    margin: 10px;
+}
+

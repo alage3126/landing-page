@@ -1,0 +1,42 @@
+Especifidades CSS
+ID=(1,0,0)->Classes=(0,1,0)->Atributos e Pseudo-Classes e Elementos e Pseudo-Elementos=(0,0,1)
+
+!important -> Força o site a forçar aparecer o que quero
+
+boxmodel
+Se um display tiver com o atributo "inline", todos os outros atributos a seguir deixam de ser vistos
+overflow: hidden(escondido)
+overflow:auto(cria uma scroll se ultrapassar o tamanho)
+overflow:scroll(fica sempre sempre com o scroll)
+width:Largura(100%)
+max-width:Largura max(600px)
+min-width:Largura min(0px)
+height:Altura
+max-height:Altura max(600px)
+min-height:Altura min(0px)
+margin: 0 auto;(fica sempre ao meio)
+padding: Enchimento
+border:5px solid black(bordas)
+box-sizzing:border-box(inclui todos os Elementos menos a margin)
+
+
+Condição if no css
+@media (max-width:568px){
+    Todos os Elementos que sejam colocados aqui seram utilizados
+}
+
+@media (min-width:569px) and (max-width:768px){
+    Todos os Elementos que sejam colocados aqui seram utilizados
+}
+
+@media (min-width:769px) and (max-width:1200px){
+    Todos os Elementos que sejam colocados aqui seram utilizados
+}
+
+@media (min-width:1201px){
+    Todos os Elementos que sejam colocados aqui seram utilizados
+}
+
+
+link imagens aleatórias
+https://picsum.photos/360/360

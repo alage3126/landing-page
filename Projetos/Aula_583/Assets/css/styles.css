@@ -1,0 +1,62 @@
+/* 
+    ID=(1,0,0)->Classes->Atributos e Pseudo-Classes=(0,1,0)->Elementos e Pseudo-Elementos=(0,0,1)
+*/
+
+*{
+    margin: 0PX;
+    padding: 0PX;
+}
+
+.pai .lista li:last-child{
+    background: red;
+}
+
+input:required{
+    background: blue;
+}
+
+p:not(.meio) {
+    color: orange;
+}
+
+ul li:nth-child(odd){
+    background: purple;
+}
+
+ul li:nth-child(even){
+    background: blue;
+}
+
+ul li:nth-child(2n){
+    background: yellowgreen;
+}
+
+ul li::after{
+    content: "-";
+}
+ul li::before{
+    content: "--";
+}
+p{
+    font-size: 24px;
+}
+p::first-letter{
+    font-size: 50px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+p::first-line{
+   color: red;
+}
+
+p::selection{
+    background-color: black;
+    color: white;
+ }
+
+ .txt::placeholder{
+    color: rebeccapurple;
+    font-size: 10px;
+    
+ }
